@@ -1,0 +1,38 @@
+.Gioi_thieu {
+    width: 850px;
+    line-height: 1.5em;
+    padding: 30px;
+    font-size: 20px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Gioi_thieu .Random p {
+    color: black;
+}
+
+.Gioi_thieu .Random strong {
+    color: black;
+}
+
+
+.Gioi_thieu .Random ul li {
+    color: black;
+    list-style: disc;
+    margin-left: 25px ;
+}
+
+.Gioi_thieu .Random i {
+    color: black;
+}
+
+.Logo {
+    background-image: url();
+}

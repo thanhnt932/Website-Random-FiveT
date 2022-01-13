@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project FiveT</title>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="Website\fontawesome\css\fontawesome.min.css">
+    <link rel="stylesheet" href="playnumber.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background: #282923;
+        }
+
+        .section2 {
+            color: red;
+        }
+
+        *{
+            text-decoration: none;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        footer {
+            display: block;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="Trangchu.html" class="Logo">FiveT</a>
+        <ul class="menu">
+            <li><a class="section1" href="index.html">Home</a></li>
+            <li class="mode">
+                <a class="section2" href="play.html">Play Random</a>
+                <ul class="menu_play">
+                    <li><a href="./play.html">Name</a></li>
+                    <li><a href="./playnumber.html">Number</a></li>
+                </ul>
+            </li>
+            <li><a class="section3" href="Lienhe.html">Contact Us</a></li>
+            <li><a class="section4" href="Gioithieu.html">About Website</a></li>
+        </ul>
+    </div>
+    <div>
+        
+            <input onchange="checkNumber()" type="text" placeholder="Nhập số đầu"  id="n1">  
+            <input onchange="checkNumber()" type="text" placeholder="Nhập số cuối" id="n2">  
+        <button class="play" onclick="RandomNum()">Quay</button> 
+        <script src="./main.js"></script>
+        <img class="img_gacha" src="./gacha.png" alt="Ảnh máy gacha">
+      </div>
+    <div class="bg"></div>
+        <div class="bg bg1"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+</body>
+</html>
